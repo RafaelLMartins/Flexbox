@@ -1,47 +1,39 @@
 .flex-container{
-	margin: 0;
-	padding:0;
 	display: flex;
-	list-style: none;
-}
-
-.flex-item{
-	background-color: darkblue;
-	height: 50px;
-	width: 50px;
-	line-height: 50px;
-	font-size: 20px;
-	color: white;
-	text-align: center;
-	margin: 5px;
-} 
-
-.row{
-	flex-direction: row;
-}
-
-.row-reverse {
-	flex-direction: row-reverse;
-}
-
-.row-reverse li{
-	background-color: red;
-}
-
-.column{
-	float: left;
+	height: 150px;
+	border: 2px solid black;
+	max-width: 300px;
 	flex-direction: column;
 }
 
-.column li{
-	background: orange;
+.flex-item{
+	font-size: 24px;
+	height: 50%;
+	text-align: center;
+	min-width: 100px;
+	line-height: 70px;
+} 
+
+.nowrap{
+	flex-wrap: nowrap;
 }
 
-.column-reverse{
-	float: right;
-	flex-direction: column-reverse;
+.wrap{
+	flex-wrap: wrap;
 }
 
-.column-reverse li{
-	background: purple;
+.wrap-reverse{
+	flex-wrap: wrap-reverse;
+}
+
+.blue{
+	background-color: blue;
+}
+
+.green{
+	background-color: green;
+}
+
+.orange{
+	background-color: orange;
 }
