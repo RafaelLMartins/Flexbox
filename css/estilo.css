@@ -1,9 +1,9 @@
 .flex-container{
 	display: flex;
 	border: 1px solid black;
-	max-width: 500px;
+	max-width: 400px;
+	margin: 0px;
 	margin-bottom: 10px;
-	max-height: 300px;
 }
 
 .flex-item{
@@ -11,58 +11,24 @@
 	margin: 5px;
 	color: white;
 	text-align: center;
-	width: 100px;
-	height: 50px;
-	line-height: 50px;
-
 } 
 
-
-.default{
-	flex-flow: row nowrap;
+.flex-start{
+	justify-content: flex-start;
 }
 
-.wrap{
-	flex-flow: row wrap;
+.flex-end{
+	justify-content: flex-end;
 }
 
-.wrap-reverse{
-	flex-flow: row wrap-reverse;
+.center{
+	justify-content: center;
 }
 
-.row-reverse-nowrap{
-	flex-flow: row-reverse nowrap;
+.space-between{
+	justify-content: space-between;
 }
 
-.row-reverse-wrap{
-	flex-flow: row-reverse wrap;
-}
-
-.row-reverse-wrap-reverse{
-	flex-flow: row-reverse wrap-reverse;
-}
-
-.default-column{
-	flex-flow: column nowrap;
-}
-
-.column-wrap{
-	flex-flow: column wrap;
-}
-
-
-.column-wrap-reverse{
-	flex-flow: column wrap-reverse;
-}
-
-.column-reverse-nowrap{
-	flex-flow: column-reverse nowrap;
-}
-
-.column-reverse-wrap{
-	flex-flow: column-reverse wrap;
-}
-
-.column-reverse-wrap-reverse{
-	flex-flow: column-reverse wrap-reverse;
+.space-around{
+	justify-content: space-around;
 }
