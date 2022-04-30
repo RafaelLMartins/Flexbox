@@ -1,49 +1,41 @@
 .flex-container{
+	height: 350px;
+	max-width: 300px;
 	display: flex;
+	flex-wrap: wrap;
 	border: 1px solid black;
-	max-width: 350px;
-	/*margin: 0px;
-	margin-bottom: 10px;*/
 }
 
 .flex-item{
-	background-color: blueviolet;
-	margin: 5px;
-	color: white;
-	text-align: center;
+	background-color: orangered;
+	padding: 0 5px;
 	flex: 1;
+	text-align: center;
+	color: white;
+	margin: 5px;
+	border: 2px solid black;
 } 
 
-.alicenter{
-	align-items: center;
+.strecth{
+	align-content: strecth;
 }
 
-.stretch{
-	align-items: stretch;
+.center{
+	align-content: center;
 }
 
-.start{
-	align-items: flex-start;
+.flex-start{
+	align-content: flex-start;
 }
 
-.end{
-	align-items: flex-end;
+.flex-end{
+	align-content: flex-end;
 }
 
-.baseline{
-	align-items: baseline;
+.space-around{
+	align-content: space-around;
 }
 
-.column{
-	flex-direction: column;
-}
-
-.central{
-	height: 300px;
-	justify-content: center;
-	align-items: center;
-}
-.central .flex-item{
-	flex: 0;
-	padding: 20px;
+.space-between{
+	align-content: space-between;
 }
